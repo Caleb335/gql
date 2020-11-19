@@ -1,0 +1,38 @@
+{
+  "name": "voice-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open",
+    "format": "prettier --write \"src/**/*.{js,html,jsx,scss,css}\"",
+    "build": "parcel build src/index.html --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caleb335/voice-test.git"
+  },
+  "keywords": [
+    "voice",
+    "API"
+  ],
+  "author": "Caleb Olojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caleb335/voice-test/issues"
+  },
+  "homepage": "https://github.com/Caleb335/voice-test#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  }
+}
