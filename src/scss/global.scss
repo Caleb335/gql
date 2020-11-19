@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: ghostwhite;
+}
+
+.app {
+    header {
+        background: rgb(17, 16, 16);
+        color: #fff;
+        height: 60px;
+        padding: 10px;
+
+        & h1 {
+            font-weight: 300;
+        }
+    }
+}
